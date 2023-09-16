@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&family=Tiro+Devanagari+Hindi&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#contaner {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+#firstpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  background-color: aquamarine;
+  position: absolute;
+  top: 10vh;
+}
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+}
+.logo {
+  position: absolute;
+  left: 10vh;
+  font-weight: 900;
+  font-size: 29px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: not-allowed;
+}
+#navbar ul {
+  display: flex;
+  position: absolute;
+  left: 30vh;
+  gap: 2vw;
+}
+#navbar ul li {
+  list-style: none;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: rgb(45, 44, 44);
+  font-size: 1.9vh;
+}
+#navbar ul li a:hover {
+  color: black;
+}
+#inp {
+  position: absolute;
+  right: 10vh;
+}
+#inpud {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  /* height: 20px; */
+  padding: 12px;
+  border-radius: 10px;
+  margin: 12px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  border: 2px solid rgb(7, 7, 7);
+}
+#inpud:hover {
+  /* background-color: rgb(148, 143, 143); */
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 4, 255);
+}
+#inpu {
+  background-color: aqua;
+  color: white;
+  font-size: 20px;
+  /* height: 20px; */
+  padding: 12px;
+  border-radius: 20px;
+  margin: 12px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  border: 2px solid rgb(255, 255, 255);
+}
+#inpu:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+#left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 60vw;
+  height: 80vh;
+  background-color: rgb(255, 255, 255);
+  gap: 10px;
+}
+#left h2 {
+  position: absolute;
+  left: 10vh;
+  top: 12vh;
+  font-size: 7vw;
+  text-transform: capitalize;
+}
+#left p {
+  position: absolute;
+  top: 45vh;
+  left: 10vh;
+  font-size: 2vw;
+  color: rgb(83, 79, 79);
+  font-family: "Courier New", Courier, monospace;
+}
+#leftbtu {
+  background-color: aqua;
+  color: white;
+  font-size: 20px;
+  /* height: 20px; */
+  padding: 12px;
+  border-radius: 20px;
+  margin: 12px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 60vh;
+  left: 10vh;
+}
+#leftbtu:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  left: 10vh;
+}
+#right {
+  width: 40vw;
+  height: 80vh;
+  background-color: rgb(255, 255, 255);
+  background-image: url(/image/Business-woman-holding-labtop-computer-on-transparent-background-PNG.png);
+  background-position: center;
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.contaner2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(255, 255, 255);
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 15vh;
+  background-color: rgb(43, 8, 79);
+  background-image: url(/image/background2.png);
+  background-position: center;
+  background-size: cover;
+  background-size: contain;
+  border-radius: 2vh;
+  position: relative;
+  /* background-repeat: no-repeat; */
+}
+#sea {
+  position: absolute;
+  left: 5vh;
+  height: 8vh;
+  width: 75vw;
+  border-radius: 2vh;
+  border: 2px solid white;
+  font-size: 3vh;
+}
+#see {
+  position: absolute;
+  right: 10vh;
+  cursor: pointer;
+  padding: 2vh;
+  color: white;
+  background-color: aqua;
+  border-radius: 2vh;
+  transition: 1s ease-in-out;
+}
+#see:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.main-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 5vh;
+  font-size: 4vh;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  gap: 2vh;
+}
+.heading p {
+  font-size: 2vh;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vh;
+  position: absolute;
+  top: 50vh;
+  width: 20vw;
+  height: 40vh;
+  background-color: rgb(255, 255, 255);
+}
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vh;
+  width: 20vw;
+  height: 40vh;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  background-color: rgb(255, 255, 255);
+}
+.box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vh;
+  width: 20vw;
+  height: 40vh;
+  background-color: rgb(255, 255, 255);
+}
+.box1 h2 {
+  position: absolute;
+  top: 5vh;
+}
+.box1 p {
+  position: absolute;
+  left: 1.5vh;
+  top: 30%;
+}
+#butt {
+  position: relative;
+  top: 20%;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 2vh;
+  border-radius: 1vh;
+  background-color: aqua;
+  transition: 0.3s ease-in-out;
+  text-transform: capitalize;
+  border: 2px solid white;
+}
+#butt:hover {
+  background-color: white;
+  border: 2px solid black;
+}
+.box2 h2 {
+  position: relative;
+  top: -5vh;
+}
+.box2 p {
+  position: relative;
+  left: 1.5vh;
+  top: -5vh;
+}
+.ddd {
+  position: relative;
+  top: -3vh;
+  padding: 2vh;
+  border-radius: 12px;
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: aqua;
+  border: 2px solid white;
+  transition: 0.3s ease-in-out;
+}
+.ddd:hover {
+  background-color: white;
+  border: 2px solid black;
+}
+.box3 h2 {
+  position: relative;
+  top: -5vh;
+}
+.box3 p {
+  position: relative;
+  left: 1.5vh;
+  top: -5vh;
+}
+
+.box5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vh;
+  width: 100vw;
+  height: 30vh;
+  background-color: blue;
+  background-image: url(/image/images.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-size: contain;
+  color: white;
+  font-size: 3vw;
+  cursor: copy;
+  text-transform: capitalize;
+}
+#box55 {
+  text-transform: capitalize;
+  padding: 2vh;
+  border-radius: 2vh;
+  background-color: aqua;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+#box55:hover {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
+.con1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  width: 20vw;
+  height: 40vh;
+  /* background-color: aliceblue;  */
+}
+.con2 {
+  display: flex;
+  width: 60vw;
+  height: 40vh;
+  /* background-color: blueviolet; */
+}
+.sub1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  width: 20vw;
+  height: 40vh;
+  list-style: none;
+  /* background-color: aqua; */
+}
+.sub1 li a {
+  color: white;
+  text-decoration: none;
+}
+.sub2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 2vh;
+  width: 20vw;
+  height: 40vh;
+  /* background-color: rgb(228, 141, 11); */
+}
+.sub2 li a {
+  color: white;
+  text-decoration: none;
+}
+.sub3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 2vh;
+  width: 20vw;
+  height: 40vh;
+  /* background-color: rgb(195, 248, 2); */
+}
+.sub3 li a {
+  color: white;
+  text-decoration: none;
+}
+.con3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 20vw;
+  height: 40vh;
+  /* background-color: blue; */
+}
+.con3 i {
+  cursor: pointer;
+  margin: 12px;
+}
